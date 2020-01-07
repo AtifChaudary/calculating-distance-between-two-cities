@@ -1,9 +1,16 @@
+<html>
+<head>
+	<title>Distance between Two Cities</title>
+
 <style>
 #map {
     height: 25%;
     width: 25%;
     }
 </style>
+	
+</head>
+<body>
 <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -23,7 +30,8 @@
 
         </div>
     </div>
-	
+</body>
+</html>
    <script>
         function initMap() {
             var bounds = new google.maps.LatLngBounds;
